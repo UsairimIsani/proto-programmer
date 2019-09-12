@@ -6,10 +6,10 @@ pub mod bittobyte {
         for i in st.iter() {
             match *i {
                 "1" => {
-                    &bytes_array.push(0x01);
+                    &bytes_array.push(0x67);
                 }
                 "0" => {
-                    &bytes_array.push(0x00);
+                    &bytes_array.push(0x89);
                 }
                 _ => (),
             }
